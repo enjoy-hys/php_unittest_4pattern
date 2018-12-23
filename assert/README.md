@@ -14,3 +14,7 @@ PHP コマンドが使えばテスト実行可能
 ### テスト実行
 
 php test_sum.php
+
+何も表示しない場合、
+
+php -d assert.exception=1 -d zend.assertions=1 test_sum.php
